@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>survey form</title>
+<style>
+    *{
+        margin: 0px;
+        padding:0px;
+        box-sizing: border-box;
+    }
+    body{
+        background-color:hotpink;
+        /* position: relative; */
+        /* filter: blur(3px); */
+    }
+    .first{
+        border: 2px solid rgb(253, 237, 5);
+        width: 350px;
+        height: 250px;
+        padding: 6px;
+        margin: auto;
+      position:relative;
+        top: 9rem;
+        background-color: white;
+        box-shadow: 3px 3px 10px 50px rgb(114, 247, 6);
+        
+    }
+    .second{
+        margin: 5px;
+        padding: 9px;
+        /* background-color: white; */
+    }
+    .second input{
+        margin: 10px;
+    }
+    .second label{
+        color: rgb(223, 65, 144);
+    }
+    .second form #submit{
+        background-color:hotpink;
+        border: 3px solid hotpink;
+        border-radius: 5px;
+        margin-top: 20px;
+        margin-left: 130px;
+        font-size: 18px;
+        color: white;
+    }
+</style>
+</head>
+<body>
+    <div class="first">
+        <div class="second">
+            <form >
+                <label for="first">FIRST NAME</label>
+                <input type="text" name="first" placeholder="first name">
+                <br>
+                <label for="second">SECOND NAME</label>
+                <input type="text" name="second" placeholder="second name">
+                <br>
+                <label for="age">AGE</label>
+                <input type="number" name="age" placeholder="age">
+                <br>
+                <label for="first">PASSWORD</label>
+                <input type="password" name="password" placeholder="password">
+                <br>
+                <!-- <label for="first">FIRST NAME</label> -->
+                <!-- <label for="first">FIRST NAME</label> -->
+<input type="submit" name="submit" placeholder="SUBMIT" id="submit">
+            </form>
+        </div>
+    </div>
+</body>
+</html>
